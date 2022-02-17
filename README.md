@@ -1,1 +1,13 @@
-# 17-feb-Assignment-1
+n=int(input("enter number range:"))
+sum=0
+total=0
+for i in range (1,n+1):
+    if i%2==1:
+        sum=sum+i
+    if i%2==0:
+        total=total+i
+sum=sum+total
+print('sum of even and odd numbers :' ,sum)
+
+output:enter range:3
+       sum of even and odd numbers:6
